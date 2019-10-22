@@ -1,0 +1,143 @@
+* {box-sizing: border-box;}
+
+body {
+background-color:pink; 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center; }
+.header {
+  overflow: hidden;
+  background-color:#f7f1e3;
+  padding: 20px 10px;
+  
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 1.8em; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 3.4em;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color:#ff751a ;
+  color: white;
+  font-weight: bold;
+}
+
+
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+    
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+
+
+footer {
+  font-size: 1.3em;
+  padding: 20px 0;
+background-color:red;
+font-weight: bold;
+color: white;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+section p{
+color:white;
+background: CHERRY;
+font-size: 3rem;
+color:#8e44ad;
+text-align: center;
+margin-left:2%;
+margin-right:2%;
+}
+
+section h1{
+  height: 5rem;
+  color: blue;
+  
+  font-size: 2rem;
+  margin-left: 1.1em;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+
+
+#services_2 {
+    background-color: lightgray;
+    padding: 40px;
+}
+
+.indent_1000 {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.testimonial-thumb img {
+    max-width: 180px;
+}
+
+.testimonial-thumb img {
+    border-radius: 210px;
+    border: 5px solid #fff;
+}
+
+.testimonial-title {
+    font-weight: bold;
+    font-size: 24px;
+    font-size: 2.4rem;
+    /*   margin: 1rem 0; */
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1099px) {
+    .indent_1000 {
+        margin: 0;
+        padding: 0 4rem;
+    }
+} 
+
+@media screen and (max-width: 320px) {
+    .indent_1000 {
+        margin: 0 2rem;
+    }
+}
